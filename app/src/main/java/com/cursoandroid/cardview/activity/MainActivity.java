@@ -10,12 +10,13 @@ import com.cursoandroid.cardview.R;
 import com.cursoandroid.cardview.adapter.PostagemAdapter;
 import com.cursoandroid.cardview.model.Postagem;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
     private RecyclerView recyclerPostagem;
-    private List<Postagem> postagens;
+    private List<Postagem> postagens = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,7 +54,5 @@ public class MainActivity extends AppCompatActivity {
         this.postagens.add(p);
 
     }
-
-
 
 }

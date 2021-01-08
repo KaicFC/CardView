@@ -63,7 +63,6 @@ public class PostagemAdapter extends RecyclerView.Adapter<PostagemAdapter.MyView
             imagePostagem = itemView.findViewById(R.id.imagePostagem);
 
         }
-
     }
 
 }
